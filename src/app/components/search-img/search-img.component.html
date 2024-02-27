@@ -1,6 +1,6 @@
 <div class="jumbotron">
     <form (ngSubmit)="searchImages()">
-        <div class="row">
+        <div class="row justify-content-center">
             <div class="col-lg-8">
                 <input type="text" 
                         class="form-control form-control-lg" 
@@ -8,7 +8,7 @@
                         name="img"
                         [(ngModel)]="nameIMG">
             </div>
-            <div class="col-lg-4 mt-3 mt-md-0">
+            <div class="col-lg-4 mt-3 mt-md-0 w-auto">
                 <button type="submit" 
                         class="btn btn-primary btn-lg btn-block">Search</button>
             </div>
